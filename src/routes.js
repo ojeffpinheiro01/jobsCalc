@@ -2,7 +2,7 @@ const express = require('express')
 
 const routes = express.Router()
 
-const views = __dirname + '/views/'
+const views = __dirname + "/views/"
 
 const Profile = {
   data: {
@@ -17,7 +17,7 @@ const Profile = {
 
   controllers: {
     index(req, res) {
-      return res.status(200).render(views + "profile", { profile: Profile.data })
+      return res.render(views + "profile", { profile: Profile.data })
     },
     update(req, res) {
       const data = req.body
@@ -61,7 +61,7 @@ const Job = {
 
   controllers: {
     index(req, res) {
-      const updateJobs = Job.data.map((job) => {
+      const updatedJobs = Job.data.map((job) => {
         const remaining = Job.services.remainingDays(job)
         const status = remaining <= 0 ? 'done' : 'progress'
 
@@ -69,26 +69,29 @@ const Job = {
           ...job,
           remaining,
           status,
-          budget: Job.services.calculateBudget(job, Profile.data['value-hour'])
+          budget: Job.services.calculateBudget(job, Profile.data["value-hour"])
         }
       })
-      res.status(200).render(views + "index", { jobs: updateJobs })
+    
+      return res.render(views + "index", { jobs: updatedJobs })
     },
 
     create(req, res) {
-      return res.status(200).render(views + "job")
+      return res.render(views + "job")
     },
     save(req, res) {
-      const lastJobId = Job.data[Job.data.length - 1] ? Job.data[Job.data.length - 1].id : 1
+      const lastId = Job.data[Job.data.length - 1] ? Job.data[Job.data.length - 1].id : 1
       Job.data.push({
-        id: lastJobId + 1,
+        id: lastId + 1,
         name: req.body.name,
         "daily-hours": req.body["daily-hours"],
         "total-hours": req.body["total-hours"],
-        create_at: Date.now()
+        created_at: Date.now()
       })
+
       return res.redirect('/')
     },
+
     show(req, res) {
       const jobId = req.params.id
       const job = Job.data.find(job => Number(job.id) === Number(jobId))
@@ -97,10 +100,11 @@ const Job = {
         return res.send('Job not found!')
       }
 
-      job.budget = Job.services.calculateBudget(job, Profile.data['value-hour'])
+      job.budget = Job.services.calculateBudget(job, Profile.data["value-hour"])
 
-      return res.status(200).render(views + 'job-edit', { job })
+      return res.render(views + "job-edit", { job })
     },
+
     update(req, res) {
       const jobId = req.params.id
       const job = Job.data.find(job => Number(job.id) === Number(jobId))
@@ -109,7 +113,7 @@ const Job = {
         return res.send('Job not found!')
       }
 
-      const updateJob = {
+      const updatedJob = {
         ...job,
         name: req.body.name,
         "total-hours": req.body["total-hours"],
@@ -117,12 +121,13 @@ const Job = {
       }
 
       Job.data = Job.data.map(job => {
-        if (Number(job.id) === Number(jobId)) {
-          job = updateJob
+        if(Number(job.id) === Number(jobId)) {
+          job = updatedJob
         }
 
         return job
       })
+
       res.redirect('/job/' + jobId)
     }
   },
@@ -130,15 +135,15 @@ const Job = {
   services: {
     remainingDays(job) {
       const remainingDays = (job["total-hours"] / job["daily-hours"]).toFixed()
-
-      const createDate = new Date(job.created_at)
-      const dueDay = createDate.getDate() + Number(remainingDays)
-      const dueDateMS = createDate.setDate(dueDay)
-
-      const timeDiffMS = dueDateMS - Date.now()
-      const dayMS = 1000 * 60 * 60 * 24
-      const dayDiff = Math.floor(timeDiffMS / dayMS)
-
+    
+      const createdDate = new Date(job.created_at)
+      const dueDay = createdDate.getDate() + Number(remainingDays)
+      const dueDateInMs = createdDate.setDate(dueDay)
+    
+      const timeDiffInMs = dueDateInMs - Date.now()
+      const dayInMs = 1000 * 60 * 60 * 24
+      const dayDiff = Math.floor(timeDiffInMs / dayInMs)
+    
       return dayDiff
     },
     calculateBudget: (job, valueHour) => valueHour * job["total-hours"]
