@@ -1,4 +1,4 @@
-## [Leia esta página em português](https://github.com/ojeffpinheiro01/jobsCalc/blob/main/README-PT.md)
+## [Read this page in English](https://github.com/ojeffpinheiro01/jobsCalc)
 
 <h1 align="center">
    <img src="assets/logo.svg">
@@ -8,33 +8,35 @@
 
 ## Menu
 
-[Overview](#book-overview)
+[Sobre o projeto](#book-sobre-o-projeto)
 
-[Technology](#rocket-technology)
+[Tecnologias](#rocket-tecnologias)
 
 [Preview](#eyes-preview)
 
 [Layout](#art-layout)
 
-[Running the project](#fire-running-the-project)
+[Como rodar na sua máquina ](#fire-como-rodar-na-sua-máquina )
 
-[How to contribute](#gear-how-to-contribute)
+[Como contribuir](#gear-como-contribuir)
 
-[Reach me](#mailbox-reach-me)
+[Contato](#mailbox-contato)
 
-[Connect with me](#connect-with-me)
+[Siga-me ](#siga-me)
 
 <br>
-
-# :book: Overview
-JobsCalc is an application that helps freelancers to have a previous salary, where it is possible to have a control of jobs and plan an hourly rate for those who are using
-It is being developed during the Discover Marathon - offered by Rocketseat
-<h4 align="center"> :construction: In development :construction:</h4>
  
 ---
 
-# :rocket: Technology
-This project was developed with the following technologies:
+# :book: Sobre o projeto 
+JobsCalc é uma aplicação que auxilia freelancer a ter uma prévia salarial, onde é possível ter um controle dos jobs e planejar um valor por hora para quem está usando
+Está sendo desenvolvida durante a Maratona Discover - oferecida pela Rocketseat
+ <h4 align="center">:construction: Em desenvolvimento :construction:</h4>
+ 
+---
+
+# :rocket: Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
@@ -42,7 +44,6 @@ This project was developed with the following technologies:
 - EJS
 - Express
 - SQLite
-
 ---
 
 # :eyes: Preview
@@ -58,54 +59,51 @@ This project was developed with the following technologies:
 ---
 
 # :art: Layout
-The Layout was developed by [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/), and you can access it on [Figma](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning)
+O Layout foi desenvolvido pelo [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/), e você pode acessá-lo no [Figma](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning)
 
 ---
 
-# :fire: Running the project 
+# :fire: Como rodar na sua máquina 
 ## Precondition <img src="https://4.bp.blogspot.com/-7eg7Qz3UeWM/UTioF3nxNGI/AAAAAAAAPZk/7H509R6acZU/s1600/gif+aviso.gif" width="40px">
-You should have:
+Você precisa já ter instalado
 - NodeJS
 - Package manager (NPM ou Yarn)
-
 ```bash
-## Clone this repository :floppy_disk:
+## Clone esse repositório
 $ git clone https://github.com/ojeffpinheiro01/jobsCalc.git
 
-## Access the project folder at the command prompt
-$ cd jobsCalc
+## Acesse a pasta do projeto no prompt de comando 
+$ cd cd jobsCalc
 
-## Install the dependencies
-$ yarn install
-or
+## Instale as dependências
+yarn install
+ou
 $ npm install
 
-## Run 
-### Run the application
-$ yarn dev
-or 
-$ npm run dev
-
-## The app is running on port 3000 - go to <http:// localhost: 3000> 
+## Rodando
+$ yarn start
+ou
+$ npm run start
 ```
 ---
 
-# :gear: How to contribute 
+# :gear: Como contribuir
 ```bash
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m 'feat: My new feature'`;
-- Push to your branch: `git push origin my-feature`.
+- Faça um fork desse repositório;
+- Crie uma branch com a sua feature: git checkout -b minha-feature;
+- Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
+- Faça push para a sua branch: git push origin minha-feature;
 ```
+
 ---
 
-# :mailbox: Reach me	
+# :mailbox: Contato	
 [![Linkedin Badge](https://img.shields.io/badge/-JefersonPinheiro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/jeferson-pinheiro/)](https://www.linkedin.com/in/jeferson-pinheiro/)
 [![Gmail Badge](https://img.shields.io/badge/-jefersonpinheirodesouza@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jefersonpinheirodesouza@gmail.com)](mailto:jefersonpinheirodesouza@gmail.com)
 
 ---
 
-# Connect with me
+# Siga-me 
 <p align="center">
 <a href="https://dev.to/ojeffoinheiro" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="ojeffoinheiro" height="30" width="40" /></a>
 <a href="https://codepen.io/ojeffoinheiro" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="maykbrito" height="30" width="40" /></a>
@@ -117,5 +115,5 @@ $ npm run dev
 
 ---
 
->This project was developed with ❤️ by **[@Jéferson Pinheiro](https://github.com/ojeffpinheiro01/)**, with the instructor **[@MaykBrito](https://linkedin.com/in/maykbrito)**, during the **[Maratona Discover](https://maratonadiscover.rocketseat.com.br/inscricao/)** of **[Rocketseat](https://www.linkedin.com/school/rocketseat/about/)** 💜. <br> 
-   If it helped you, give it ⭐, it will help me too 😉
+>Este projeto foi desenvolvido com ❤️ por **[Jéferson Pinheiro](https://github.com/ojeffpinheiro01/)**, com o instrutor **[Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)** durante a **[Next Level Week # 4 - Trilha ReactJS](https://nextlevelweek.com/)** da **[Rocketseat](https://rocketseat.com.br)** 💜<br> 
+Se te ajudou, dá ⭐, vai me ajudar também 😉
