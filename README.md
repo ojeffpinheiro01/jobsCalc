@@ -50,7 +50,7 @@ Deploy on [Vercel]
 # :eyes: Preview
 ## Web Screenshot
 <div>
-  <img src="https://user-images.githubusercontent.com/60162736/113364948-3101a400-932b-11eb-9918-58c17e2ed204.png">
+  <img src="/assets/home.png">
 </div>
 
 ---
