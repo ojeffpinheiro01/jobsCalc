@@ -22,7 +22,7 @@
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
 
-  <script src="scripts/index.js" defer type="module"></script>
+  <script src="/scripts/index.js" defer type="module"></script>
 </head>
 
 <body id="page-index">
@@ -76,7 +76,7 @@
 
       <div class="cards">
         <% jobs.forEach((job)=> { %>
-          <div class="card <%= job.status %> " data-id="<%= job.id %>">
+          <div class="card <%= job.status %>" data-id="<%= job.id %>">
             <div class="id column"><%= job.id %></div>
             <div class="name column"><%= job.name %></div>
             <div class="deadline column">
@@ -121,7 +121,9 @@
       </p>
       <footer>
         <a class="button gray" href="#">Cancelar</a>
-        <button class="button red" type="submit" form="delete-job">Excluir Job</button>
+        <button class="button red" type="submit" form="delete-job">
+          Excluir Job
+        </button>
       </footer>
     </div>
     <form method="post" action="/job/delete" id="delete-job"></form>
