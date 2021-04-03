@@ -118,4 +118,5 @@ $ npm run dev
 ---
 
 >This project was developed with ❤️ by **[@Jéferson Pinheiro](https://github.com/ojeffpinheiro01/)**, with the instructor **[@MaykBrito](https://linkedin.com/in/maykbrito)**, during the **[Maratona Discover](https://maratonadiscover.rocketseat.com.br/inscricao/)** of **[Rocketseat](https://www.linkedin.com/school/rocketseat/about/)** 💜. <br> 
-   If it helped you, give it ⭐, it will help me too 😉
+[Join our community!](https://discordapp.com/invite/gCRAFhc)<br>
+If it helped you, give it ⭐, it will help me too 😉
