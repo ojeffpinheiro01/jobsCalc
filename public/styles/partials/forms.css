@@ -28,6 +28,10 @@ form .input-group .input-wrapper + .input-wrapper {
   margin-left: 1.5rem;
 }
 
+.input-wrapper {
+  width: 50%;
+}
+
 label {
   display: inline-block;
 
