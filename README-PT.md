@@ -115,5 +115,6 @@ $ npm run start
 
 ---
 
->Este projeto foi desenvolvido com ❤️ por **[Jéferson Pinheiro](https://github.com/ojeffpinheiro01/)**, com o instrutor **[Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)** durante a **[Next Level Week # 4 - Trilha ReactJS](https://nextlevelweek.com/)** da **[Rocketseat](https://rocketseat.com.br)** 💜<br> 
+>Este projeto foi desenvolvido com ❤️ por **[Jéferson Pinheiro](https://www.linkedin.com/in/jeferson-pinheiro/)**, com o instrutor **[MaykBrito](https://linkedin.com/in/maykbrito)** durante a *[Maratona Discover](https://maratonadiscover.rocketseat.com.br/inscricao/)** da **[Rocketseat](https://rocketseat.com.br)** 💜<br> 
+[Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)<br>
 Se te ajudou, dá ⭐, vai me ajudar também 😉
