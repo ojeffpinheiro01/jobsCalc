@@ -47,9 +47,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ---
 
 # :eyes: Preview
+## Demo
+<img src="assets/demo.gif" width="900px"/>
+
 ## Web Screenshot
 <div>
-   <img src="assets/home.png" width="480px"> 
+   <img src="assets/home.png" width="450px"> 
    <img src="assets/my-profile.png" width="450px">
    <img src="assets/new-job.png" width="450px">
    <img src="assets/edit-job.png" width="450px"> 
@@ -115,6 +118,6 @@ $ npm run start
 
 ---
 
->Este projeto foi desenvolvido com ❤️ por **[Jéferson Pinheiro](https://www.linkedin.com/in/jeferson-pinheiro/)**, com o instrutor **[MaykBrito](https://linkedin.com/in/maykbrito)** durante a *[Maratona Discover](https://maratonadiscover.rocketseat.com.br/inscricao/)** da **[Rocketseat](https://rocketseat.com.br)** 💜<br> 
+>Este projeto foi desenvolvido com ❤️ por **[Jéferson Pinheiro](https://www.linkedin.com/in/jeferson-pinheiro/)**, com os instrutores **[Mayk Brito](https://linkedin.com/in/maykbrito)** e **[Jakeliny Gracielly](https://www.linkedin.com/in/jakelinygracielly/)** durante a *[Maratona Discover](https://maratonadiscover.rocketseat.com.br/inscricao/)** da **[Rocketseat](https://rocketseat.com.br)** 💜<br> 
 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)<br>
 Se te ajudou, dá ⭐, vai me ajudar também 😉
