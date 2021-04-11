@@ -83,6 +83,11 @@ yarn install
 ou
 $ npm install
 
+## Iniciar o banco de dados
+$ yarn init-db
+ou
+$ npm run init-db
+
 ## Rodando
 $ yarn start
 ou
