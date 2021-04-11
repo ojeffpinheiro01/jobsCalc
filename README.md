@@ -50,7 +50,7 @@ This project was developed with the following technologies:
 <img src="assets/demo.gif" width="900px"/>
 ## Web Screenshot
 <div>
-   <img src="assets/home.png" width="480px"> 
+   <img src="assets/home.png" width="450px"> 
    <img src="assets/my-profile.png" width="450px">
    <img src="assets/new-job.png" width="450px">
    <img src="assets/edit-job.png" width="450px"> 
