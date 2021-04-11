@@ -82,6 +82,12 @@ $ yarn install
 or
 $ npm install
 
+## Start the database
+$ yarn init-db
+ou
+$ npm run init-db
+
+
 ## Run 
 ### Run the application
 $ yarn dev
