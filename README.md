@@ -48,6 +48,7 @@ This project was developed with the following technologies:
 # :eyes: Preview
 ## Demo
 <img src="assets/demo.gif" width="900px"/>
+
 ## Web Screenshot
 <div>
    <img src="assets/home.png" width="450px"> 
